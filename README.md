@@ -37,11 +37,11 @@ Bash
  Configura las variables de entorno:
  Crea un archivo .env en la raíz del proyecto y añade tus credenciales:
 
- Fragmento de código
- VITE_TMDB_API_KEY=tu_api_key_de_tmdb
- VITE_TMDB_BASE_URL=
- VITE_TMDB_IMAGE_URL=
- VITE_GROQ_API_KEY=
+
+VITE_TMDB_API_KEY=tu_api_key_aqui
+VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
+VITE_TMDB_IMAGE_URL=https://image.tmdb.org/t/p
+VITE_GROQ_API_KEY=tu_api_key_aqui
 3.Inicia el servidor de desarrollo:
 
 Bash
